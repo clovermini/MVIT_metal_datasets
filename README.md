@@ -38,9 +38,9 @@ We release two metal surface defect datasets with instance-level pixel annotatio
 ## 📜 Citation
 
 ## 📧 Contact
-For dataset inquiries or collaboration opportunities:  
-📧 [xuke@ustb.edu.cn](mailto:xuke@ustb.edu.cn)
-📧 [chuniliu@xs.ustb.edu.cn](mailto:chuniliu@xs.ustb.edu.cn)
+*For dataset inquiries or collaboration opportunities:  
+*📧 [xuke@ustb.edu.cn](mailto:xuke@ustb.edu.cn)
+*📧 [chuniliu@xs.ustb.edu.cn](mailto:chuniliu@xs.ustb.edu.cn)
 ---
 
 **Maintained by** [MVIA Lab](https://cicst.ustb.edu.cn/rcpy/yjsds/bssds1/2d415f8ca1f54cc6abafe9b7c10ba665.htm) @ [Collaborative Innovation Center of Steel Technology](https://cicst.ustb.edu.cn/), [University of Science and Technology Beijing](https://www.ustb.edu.cn)
