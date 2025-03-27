@@ -33,7 +33,7 @@ We release two metal surface defect datasets with instance-level pixel annotatio
 2. **Expert Refinement**: Manual correction by experts
 
 ## 🖼️ Samples
-![Dataset Samples](figures/samples.png)
+![Dataset Samples](samples/datasets.png)
 
 ## 📥 Download
 [Download Link](#) | [Alternative Mirror](#)
