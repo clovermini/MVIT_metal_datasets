@@ -5,7 +5,7 @@
 *University of Science and Technology Beijing*
 
 ## 📌 Overview
-We release two metal surface defect datasets with instance-level pixel annotations:
+We release two metal surface defect datasets with instance-level pixel annotations: Casting Billet, Steel Pipe.
 
 ## 🗃️ Datasets
 ### 1. Casting Billet Dataset
