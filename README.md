@@ -1,8 +1,5 @@
 # MVIA_metal_datasets
-**Provided by MVIA Lab**  
-*Machine Vision and Industrial Application Laboratory*  
-*Collaborative Innovation Center of Steel Technology*  
-*University of Science and Technology Beijing*
+*Provided by MVIA La.*
 
 ## 📌 Overview
 We release two metal surface defect datasets with instance-level pixel annotations: Casting Billet, Steel Pipe.
