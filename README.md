@@ -26,8 +26,16 @@ We release two metal surface defect datasets with instance-level pixel annotatio
   - Scratch
 
 ## ✏️ Annotation Process
-1. **AI Pre-segmentation**: SAM model with box prompts
-2. **Expert Refinement**: Manual correction by experts
+1. **AI Pre-segmentation**: Input Bounding Box Annotations and Images: Utilize SAM's predictor interface to perform batch automatic segmentation, generating initial masks.
+
+2. **Expert Refinement**:
+     1): Identify suboptimal segmentation results from the initial masks through human review.
+     2): Interactive Refinement: For poorly segmented data, apply SAM's interactive segmentation by iteratively adding. Positive sample points to guide target region identification. Negative sample points to exclude interference regions. Update segmentation results in real-time until achieving desired accuracy.
+    3). Post-processing:
+      (1)Perform threshold-based segmentation with optimal thresholds for suitable data;
+      (2)Apply morphological operations: Open operation and closed operation are used for edge smoothing, noise elimination, hole filling and other operations.
+
+![Label Process](samples/label_process.png)
 
 ## 🖼️ Samples
 ![Dataset Samples](samples/datasets.png)
