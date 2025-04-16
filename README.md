@@ -29,10 +29,10 @@ We release two metal surface defect datasets with instance-level pixel annotatio
 - **Images**: 680 (480 defective) 
 - **Resolution**: 256×256 (fixed)
 - **Defect Types**:
-  - Inclusions (In)
-  - Blocky Scale (Bs)
-  - Striated Scale (Ss)
-  - Foreign Object Embedding (Foe)
+  - Inclusions (In)(120 samples)
+  - Blocky Scale (Bs)(120 samples)
+  - Striated Scale (Ss)(120 samples)
+  - Foreign Object Embedding (Foe)(120 samples)
 
 ## ✏️ Annotation Process
 
