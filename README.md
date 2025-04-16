@@ -2,7 +2,7 @@
 *Provided by Machine Vision and Industrial Testing Laborator (MVIT Lab).*
 
 ## 📌 Overview
-We release two metal surface defect datasets with instance-level pixel annotations: Casting Billet, Steel Pipe.
+We release two metal surface defect datasets with instance-level pixel annotations: Casting Billet and Steel Pipe, as well as a Medium and Heavy Plate Surface Defect Dataset annotated in YOLO format.
 
 ## 🗃️ Datasets
 ### 1. Casting Billet Dataset
@@ -25,22 +25,31 @@ We release two metal surface defect datasets with instance-level pixel annotatio
   - Wrinkle 
   - Scratch
 
+### 3. Medium and Heavy Plate Surface Defect Dataset
+- **Images**: 680 (480 defective) 
+- **Resolution**: 256×256 (fixed)
+- **Defect Types**:
+  - Inclusions (In)
+  - Blocky Scale (Bs)
+  - Striated Scale (Ss)
+  - Foreign Object Embedding (Foe)
+
 ## ✏️ Annotation Process
 
 1. **AI Pre-segmentation**  
    Leverage SAM's predictive interface to perform batch automatic segmentation, generating initial masks based on the provided bounding box annotations and images.
 
 2. **Expert Refinement**  
-   1. **Identification of Suboptimal Segmentation**:  
+   1). **Identification of Suboptimal Segmentation**:  
       Review the initial masks to identify suboptimal segmentation results through human assessment.
 
-   2. **Interactive Refinement**:  
+   2). **Interactive Refinement**:  
       For suboptimal results, use SAM's interactive segmentation by iteratively adding:  
       - **Positive sample points** to guide the identification of the target region.  
       - **Negative sample points** to exclude interference regions.  
       Continuously update the segmentation results in real-time until the desired accuracy is achieved.
 
-   3. **Post-processing**:  
+   3). **Post-processing**:  
       - Perform threshold-based segmentation using optimal thresholds for the specific dataset.  
       - Apply morphological operations, including **opening** and **closing**, to smooth edges, eliminate noise, fill holes, and perform other enhancements.
 
