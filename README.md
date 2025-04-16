@@ -57,6 +57,7 @@ We release two metal surface defect datasets with instance-level pixel annotatio
 
 ## 🖼️ Samples
 ![Dataset Samples](samples/datasets.png)
+![Dataset Samples](samples/MHPSDS.png)
 
 ## 📥 Download
 [Download Link(baiduyun)](https://pan.baidu.com/s/1uYLvkAdRHw3TKjiJIHuO1A?pwd=uk4f) | [Alternative links(google drive)](https://drive.google.com/drive/folders/1f9UpmgPlYF2i7s83XP09sc_k7PIT1bNM?usp=sharing)
