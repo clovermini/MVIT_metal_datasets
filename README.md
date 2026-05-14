@@ -79,11 +79,13 @@ We release two metal surface defect datasets with instance-level pixel annotatio
 
 ## 📜 Citation
 ```bibtex
-@article{liu2025advancing,
-  title={Advancing Metallic Surface Defect Detection via Anomaly-Guided Pretraining on a Large Industrial Dataset},
+@article{liu2026advancing,
+  title={Advancing metallic surface defect detection via anomaly-guided pretraining on a large industrial dataset},
   author={Liu, Chuni and Li, Hongjie and Du, Jiaqi and Hou, Yangyang and Sun, Qian and Jin, Lei and Xu, Ke},
-  journal={arXiv preprint arXiv:2509.18919},
-  year={2025}
+  journal={Pattern Recognition},
+  pages={113788},
+  year={2026},
+  publisher={Elsevier}
 }
 
 @article{li2025few,
