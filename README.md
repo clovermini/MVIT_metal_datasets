@@ -74,8 +74,7 @@ We release two metal surface defect datasets with instance-level pixel annotatio
 ![Dataset Samples](samples/bridge_damage.png)
 
 ## 📥 Download
-- [Download Link(baiduyun)](https://pan.baidu.com/s/1uYLvkAdRHw3TKjiJIHuO1A?pwd=uk4f) | [Alternative links(google drive)](https://drive.google.com/drive/folders/1f9UpmgPlYF2i7s83XP09sc_k7PIT1bNM?usp=sharing)
-- Bridge Damage Dataset: [Download Link(baiduyun)](https://pan.baidu.com/s/1bYwlKuW1iktA5nAZ1Lj5mg?pwd=7j8s) 
+- [Download Link(baiduyun)](https://pan.baidu.com/s/169ajlctA075vVUYa5SzT6g?pwd=72di)
 
 ## 📜 Citation
 ```bibtex
